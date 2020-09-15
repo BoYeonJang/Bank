@@ -2,12 +2,12 @@ package Bank.VO;
 
 public class BankVO {
 
-	private String name;
-	private String nameOfBank;
-	private String accountNumber;
-	private String gender;
-	private String tel;
-	private String password;
+	private String name;			// 이름
+	private String nameOfBank;		// 은행 이름
+	private String accountNumber;	// 계좌 번호
+	private String gender;			// 성별
+	private String tel;				// 전화 번호
+	private String password;		// 비밀 번호
 
 	public String getName() {
 		return name;
